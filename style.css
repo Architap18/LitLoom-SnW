@@ -1,7 +1,13 @@
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-image: url(https://img.freepik.com/premium-photo/abstract-128-background-wallpaper_792836-222009.jpg?semt=ais_hybrid&w=740&q=80);
+  
   font-family: Arial, sans-serif;
+}
+.logob{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 0.5px;
 }
 #brand{
   font-family: 'Georgia', serif;
@@ -185,12 +191,6 @@ border: #333 solid 2px;
   cursor: pointer;
   background-color: #5f62b1;
 }
-.heading2{
-  text-align: center;
-  color: darkblue;
-  
-}
-
 .book-list{
       display: flex;
       flex-wrap: nowrap;
@@ -228,7 +228,7 @@ border: #333 solid 2px;
   .title {
     font-weight: bold;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 4px;
   }
   .lib{
     text-align: center;
@@ -311,7 +311,7 @@ border: #333 solid 2px;
     background-color: #4db206;
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
   } 
-  .heading3{
+  .heading3 ,.heading2 {
     text-align: center;
     color: rgb(15, 15, 79);
     font-family: 'Times New Roman', Times, serif;
@@ -321,10 +321,11 @@ border: #333 solid 2px;
   padding: 2rem;
 }
 
-.headerr {
+.headerr,.headerr3, .headerr4, .headerr5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   margin-bottom: 2rem;
 }
 
@@ -338,6 +339,10 @@ border: #333 solid 2px;
   color: #272727f5;
   font-size: 0.8rem;
   
+}
+.view-all:hover {
+  text-decoration: underline;
+  color: red;
 }
 
 .categories-grid {
@@ -357,6 +362,8 @@ border: #333 solid 2px;
   color: #333;
   border: 1px solid black;
   box-shadow: #333 0 2px 8px rgba(0,0,0,0.9);
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .category-card:hover {
@@ -384,10 +391,6 @@ border: #333 solid 2px;
   font-size: 0.8rem;
   color: #777;
 }
-  .heading4{
-    text-align: center;
-    color: darkblue;
-  }
 .aboutauthors{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -418,23 +421,111 @@ border: #333 solid 2px;
   margin-top: 10px;
   font-size: larger;
 }
+
 .library-content{
-  display: flex;
-      flex-wrap: nowrap;
-      overflow-x: auto;
-      overflow-y: hidden;
-      cursor: pointer;
-      gap: 70px;
-      align-items: center;
- 
-      padding: 15px;
-     
-      background-size: cover;
-}
-.library-content{
-  background-color: #e0e0e0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+
   align-items: center;
-  border: 6px solid #ddd;
+}
+.libraryitem{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid black;
+  box-shadow: #333 0 2px 8px rgba(0,0,0,0.9);
+  margin-top: 5px;
+}
+.library-content .icon1{
+  width: 60px;
+  height: 80px;
+  background-color: #e5e6a5;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrange{
+  display: inline-block;
+  text-align: left;
+}
+.title2 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: large;
+  font-style: normal;
+}
+.author2 {
+  color: rgb(72, 72, 72);
+  font-size: medium;
+
+}
+ #libraryitem1{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 50px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  align-items: center;
+  border: none;
+  
+  }
+  .arrange1:hover{
+    transform: scale(1.03);
+  }
+  .arrange1{
+    display: inline-block;
+    border: 4px solid black;
+    border-radius: 10%;
+    box-sizing: border-box;
+    background-color: #ddd;
+  }
+  
+.icon2{
+    width:200px;
+    height: 80px;
+    background-color: #e5e6a5;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px 20px 15px;
+  }
+.title3 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2px;
+    text-align: center;
+    font-style: normal;
+}
+.author3 {
+    color: rgb(47, 47, 47);
+    font-size: medium;
+    text-align: center;
+}
+.removebtn{
+  margin-right: 5px;
+}
+
+.read:hover {
+    background-color: #7bf021;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+.removebtn:hover{
+    background-color: #460606;
+    box-shadow: 0 8px 0px rgba(0,0,0,0.2);
+
+}
+.comment{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5px;
+  
 }
