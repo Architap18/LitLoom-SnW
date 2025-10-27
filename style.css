@@ -159,7 +159,7 @@ footer{
   margin: 20px;
 }
 .head{
-  margin-left: 500px;
+  margin-left: 700px;
   color: rgb(3, 3, 3);
   font-size:xx-large;
   font-weight: bold;
@@ -198,12 +198,10 @@ border: #333 solid 2px;
       overflow-x: auto;
       overflow-y: hidden;
       cursor: pointer;
-      gap: 70px;
+      gap: 80px;
       align-items: center;
-      
- 
+      width: 100%;
       padding: 15px;
-     
       background-size: cover;
     
   }
