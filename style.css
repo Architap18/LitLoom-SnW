@@ -159,7 +159,7 @@ footer{
   margin: 20px;
 }
 .head{
-  margin-left: 600px;
+  margin-left: 500px;
   color: rgb(3, 3, 3);
   font-size:xx-large;
   font-weight: bold;
@@ -175,11 +175,11 @@ overflow: hidden;
 border: #333 solid 2px;
         }
 .search input {
-            flex-grow: 1;
-            padding: 15px;
-            border: none;
-            outline: none;
-            font-size: 1em;
+    flex-grow: 1;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 1em;
         }
 .searching{
   background-color: #af97e1;
@@ -261,7 +261,7 @@ border: #333 solid 2px;
       overflow-x: auto;
       overflow-y: hidden;
       cursor: pointer;
-      gap: 70px;
+      gap: 80px;
       align-items: center;
  
       padding: 15px;
