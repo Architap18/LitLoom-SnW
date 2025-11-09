@@ -1,9 +1,9 @@
-Litloom - Book/Media Library Web Application
-Overview:-
+**Litloom - Book/Media Library Web Application**
+**Overview:-**
 
 Litloom is a modern, user-friendly web application designed to help users explore, manage, and organize books and media in a digital library format. The goal of Litloom is to provide an intuitive interface for book lovers and students to access information about various books, track reading habits, and discover new content easily.
 
-Features:-
+**Features:-**
 
 Home Page: A clean, visually appealing landing page introducing the website and its purpose.
 
@@ -17,7 +17,7 @@ Interactive UI Elements: Hover effects, buttons, and cards to enhance user exper
 
 Footer Section: Includes quick links, contact information, and subscription option for updates.
 
-Purpose:-
+**Purpose:-**
 
 The main purpose of creating Litloom is:-
 
@@ -25,7 +25,7 @@ To practice and showcase web development skills, particularly in HTML and CSS.
 
 To create a functional and aesthetic platform for users to explore books/media and manage their library digitally.
 
-How to Use:-
+**How to Use:-**
 
 Open the website in any modern web browser.
 
@@ -39,7 +39,7 @@ Navigate through different sections using the top navigation bar.
 
 Subscribe or contact using the footer section if needed.
 
-Future Enhancements:-
+**Future Enhancements:-**
 
 Add a database backend to store books and user data dynamically.
 
